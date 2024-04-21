@@ -25,7 +25,7 @@ class GameSprite(sprite.Sprite):
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
-Yraaaas
+
 
 class Player(GameSprite):
      def update(self):

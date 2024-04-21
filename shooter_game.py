@@ -4,7 +4,7 @@ from random import randint
 win_width = 700
 win_height = 500
 window = display.set_mode((win_width, win_height))
-display.set_caption("PON")
+display.set_caption("lol")
 background = transform.scale(image.load("fon.png"), (win_width, win_height))
 
 
@@ -25,7 +25,7 @@ class GameSprite(sprite.Sprite):
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
-
+Yraaaas
 
 class Player(GameSprite):
      def update(self):

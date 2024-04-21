@@ -4,7 +4,7 @@ from random import randint
 win_width = 700
 win_height = 500
 window = display.set_mode((win_width, win_height))
-display.set_caption("lol")
+display.set_caption("lol2")
 background = transform.scale(image.load("fon.png"), (win_width, win_height))
 
 
